@@ -6,27 +6,27 @@ corrupted when open via the storage access framework.
 First, create a text file with this content on a computer and save it on
 OneDrive:
 
-A
-B
-C
-D
-E
+    A
+    B
+    C
+    D
+    E
 
 Next, open the file in this app. Remove the last three lines, and add a new
 line:
 
-A
-B
-1
+    A
+    B
+    1
 
 Save the file. Then open it again, either in the app or on a computer. The
 content will now be:
 
-A
-B
-1
-D
-E
+    A
+    B
+    1
+    D
+    E
 
 This issue has been reported:
 
